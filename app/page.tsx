@@ -58,12 +58,12 @@ export default function Home() {
             <div className="space-y-6 text-lg text-slate-700 animate-fade-in-left">
               <div className="shadow-lg bg-white/30 p-6 rounded-lg backdrop-blur-sm">
                 <p>
-                  Education is a foundational tenet for every individual's past, present, and future. It is a springboard to the heights of academia, the mysteries of science, and the rigor of the workforce.
+                  Education is a foundational tenet for every individual&apos;s past, present, and future. It is a springboard to the heights of academia, the mysteries of science, and the rigor of the workforce.
                   Wherever your path leads you, education will help you get there.
                 </p>
                 <p className="mt-4">
-                  That's why it's our mission to provide K-9 student resources and lessons, with middle and high school
-                  specific course loads to ensure your child's success. We can guarantee personalized, quality education
+                  That&apos;s why it&apos;s our mission to provide K-9 student resources and lessons, with middle and high school
+                  specific course loads to ensure your child&apos;s success. We can guarantee personalized, quality education
                   in order to set your future generations up for success.
                 </p>
                 <p className="mt-4">
