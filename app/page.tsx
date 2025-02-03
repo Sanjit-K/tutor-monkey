@@ -58,8 +58,7 @@ export default function Home() {
             <div className="space-y-6 text-lg text-slate-700 animate-fade-in-left">
               <div className="shadow-lg bg-white/30 p-6 rounded-lg backdrop-blur-sm">
                 <p>
-                  Education is a foundational tenet for every individual's past, present, and future. It is a
-                  springboard to the heights of academia, the mysteries of science, and the rigor of the workforce.
+                  Education is a foundational tenet for every individual's past, present, and future. It is a springboard to the heights of academia, the mysteries of science, and the rigor of the workforce.
                   Wherever your path leads you, education will help you get there.
                 </p>
                 <p className="mt-4">
@@ -98,7 +97,7 @@ export default function Home() {
             What We Do
           </h2>
           <p className="mb-12 text-center text-slate-700 max-w-3xl mx-auto bg-white/30 p-6 rounded-lg shadow-lg backdrop-blur-sm animate-fade-in-up animation-delay-200">
-          Tutor Monkey is a simple and reliable tutoring company dedicated to helping K-9 students succeed. We connect learners with knowledgeable tutors who provide clear, personalized guidance to tackle academic challenges. Whether it’s mastering math, improving reading skills, or preparing for exams, Tutor Monkey is here to make learning easier and more accessible. Our goal is to support students in achieving their best, one step at a time. We teach a variety of subjects, such as math (pre-algebra all the way to calculus), science (biology, physics, chemistry), advanced English, and even forms of history.  In addition to school subjects, we also teach programming and speech and debate lessons.  We offer both in-person and online lessons.
+          Tutor Monkey is a simple and reliable tutoring company dedicated to helping K-9 students succeed. We connect learners with knowledgeable tutors who provide clear, personalized guidance to tackle academic challenges. Whether it&apos;s mastering math, improving reading skills, or preparing for exams, Tutor Monkey is here to make learning easier and more accessible. Our goal is to support students in achieving their best, one step at a time. We teach a variety of subjects, such as math (pre-algebra all the way to calculus), science (biology, physics, chemistry), advanced English, and even forms of history.  In addition to school subjects, we also teach programming and speech and debate lessons.  We offer both in-person and online lessons.
 
 
           </p>
@@ -130,7 +129,7 @@ export default function Home() {
             <h2 className="mb-6 text-3xl font-bold text-yellow-600 drop-shadow-lg">Get Your First Class Free!</h2>
             <p className="mb-4 text-xl text-slate-700">
               From February 1st to March 1st, 2025, share the learning experience with Tutor Monkey! For every friend
-              you refer, you'll earn one free class to use on any subject. There's no limit—refer more friends, get more
+              you refer, you&apos;ll earn one free class to use on any subject. There&apos;s no limit—refer more friends, get more
               free classes!*
             </p>
             <p className="mb-8 text-sm text-slate-600">* Free classes only valid from 2/1/2025 to 3/1/2025</p>
@@ -171,7 +170,7 @@ export default function Home() {
               {
                 name: "Joshua Wu",
                 role: "Co-Founder",
-                bio: "Hi, my name is Joshua Wu and I'm a sophomore at Jasper High School. Currently, I'm taking classes such as AP Calculus BC and Engineering Science. Additionally, I received a 5 on the AP Human Geography Exam last year and achieved a perfect score on the math section of the PSAT two years in a row. My specialty subject is math. In my freetime, I like to work on robotics or participating in debate.",
+                bio: "Hi, my name is Joshua Wu and I&apos;m a sophomore at Jasper High School. Currently, I&apos;m taking classes such as AP Calculus BC and Engineering Science. Additionally, I received a 5 on the AP Human Geography Exam last year and achieved a perfect score on the math section of the PSAT two years in a row. My specialty subject is math. In my freetime, I like to work on robotics or participating in debate.",
                 image: "https://i.postimg.cc/TP2k3xZg/unnamed.jpg",
               },
               {
@@ -183,19 +182,19 @@ export default function Home() {
               {
                 name: "James Chen",
                 role: "Co-Founder",
-                bio: "Hi! My name is James Chen, and I'm a sophomore at Jasper High School. I'm enrolled in 4 AP courses this year. I received a 5 on the AP Human Geography exam. My focus is reading/writing. In my freetime, I enjoy using applied skills to build personal projects and participating in Speech and Debate at Jasper. I look forward to working with all of you!",
+                bio: "Hi! My name is James Chen, and I&apos;m a sophomore at Jasper High School. I&apos;m enrolled in 4 AP courses this year. I received a 5 on the AP Human Geography exam. My focus is reading/writing. In my freetime, I enjoy using applied skills to build personal projects and participating in Speech and Debate at Jasper. I look forward to working with all of you!",
                 image: "https://i.postimg.cc/xTHpstvJ/IMG-1402.avif",
               },
               {
                 name: "Joshua Gan",
                 role: "Co-Founder",
-                bio: "Hi, I'm Joshua Gan, a sophomore at Jasper High School. I'm currently projected to be in the top 10 at Jasper, and I'm currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I'm free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
+                bio: "Hi, I&apos;m Joshua Gan, a sophomore at Jasper High School. I&apos;m currently projected to be in the top 10 at Jasper, and I&apos;m currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I&apos;m free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
                 image: "https://i.postimg.cc/DfqnGdS6/IMG-2883-2.jpg",
               },
               {
                 name: "Skanda Gopikannan",
                 role: "Co-Founder",
-                bio: "My name is Skanda - I'm currently a sophomore at Jasper High School. I'm currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
+                bio: "My name is Skanda - I&apos;m currently a sophomore at Jasper High School. I&apos;m currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
                 image: "https://i.postimg.cc/Zq9wdH55/DSCN2347.jpg",
               },
               {
@@ -207,7 +206,7 @@ export default function Home() {
               {
                 name: "Jennifer Duan",
                 role: "Tutor",
-                bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called \"Girls in STEM\", dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I've qualified for exclusive state and national tournaments.",
+                bio: "Hi! My name is Jennifer, and I&apos;m a sophomore at Jasper High School. Over the past two years, I&apos;ve taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called &quot;Girls in STEM&quot;, dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I&apos;ve qualified for exclusive state and national tournaments.",
                 image: "https://i.postimg.cc/cLrsHKsn/IMG-1199.jpg",
               },
             ].map((member, index) => (
