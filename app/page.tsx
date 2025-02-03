@@ -170,7 +170,7 @@ export default function Home() {
               {
                 name: "Joshua Wu",
                 role: "Co-Founder",
-                bio: "Hi, my name is Joshua Wu and I&apos;m a sophomore at Jasper High School. Currently, I&apos;m taking classes such as AP Calculus BC and Engineering Science. Additionally, I received a 5 on the AP Human Geography Exam last year and achieved a perfect score on the math section of the PSAT two years in a row. My specialty subject is math. In my freetime, I like to work on robotics or participating in debate.",
+                bio: "Hi, my name is Joshua Wu and I'm a sophomore at Jasper High School. Currently, I'm taking classes such as AP Calculus BC and Engineering Science. Additionally, I received a 5 on the AP Human Geography Exam last year and achieved a perfect score on the math section of the PSAT two years in a row. My specialty subject is math. In my freetime, I like to work on robotics or participating in debate.",
                 image: "https://i.postimg.cc/TP2k3xZg/unnamed.jpg",
               },
               {
@@ -182,19 +182,19 @@ export default function Home() {
               {
                 name: "James Chen",
                 role: "Co-Founder",
-                bio: "Hi! My name is James Chen, and I&apos;m a sophomore at Jasper High School. I&apos;m enrolled in 4 AP courses this year. I received a 5 on the AP Human Geography exam. My focus is reading/writing. In my freetime, I enjoy using applied skills to build personal projects and participating in Speech and Debate at Jasper. I look forward to working with all of you!",
+                bio: "Hi! My name is James Chen, and I'm a sophomore at Jasper High School. I'm enrolled in 4 AP courses this year. I received a 5 on the AP Human Geography exam. My focus is reading/writing. In my freetime, I enjoy using applied skills to build personal projects and participating in Speech and Debate at Jasper. I look forward to working with all of you!",
                 image: "https://i.postimg.cc/xTHpstvJ/IMG-1402.avif",
               },
               {
                 name: "Joshua Gan",
                 role: "Co-Founder",
-                bio: "Hi, I&apos;m Joshua Gan, a sophomore at Jasper High School. I&apos;m currently projected to be in the top 10 at Jasper, and I&apos;m currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I&apos;m free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
+                bio: "Hi, I'm Joshua Gan, a sophomore at Jasper High School. I'm currently projected to be in the top 10 at Jasper, and I'm currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I'm free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
                 image: "https://i.postimg.cc/DfqnGdS6/IMG-2883-2.jpg",
               },
               {
                 name: "Skanda Gopikannan",
                 role: "Co-Founder",
-                bio: "My name is Skanda - I&apos;m currently a sophomore at Jasper High School. I&apos;m currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
+                bio: "My name is Skanda - I'm currently a sophomore at Jasper High School. Im currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
                 image: "https://i.postimg.cc/Zq9wdH55/DSCN2347.jpg",
               },
               {
@@ -206,7 +206,7 @@ export default function Home() {
               {
                 name: "Jennifer Duan",
                 role: "Tutor",
-                bio: "Hi! My name is Jennifer, and I&apos;m a sophomore at Jasper High School. Over the past two years, I&apos;ve taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called &quot;Girls in STEM&quot;, dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I&apos;ve qualified for exclusive state and national tournaments.",
+                  bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called &quot;Girls in STEM&quot;, dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I&apos;ve qualified for exclusive state and national tournaments.",
                 image: "https://i.postimg.cc/cLrsHKsn/IMG-1199.jpg",
               },
             ].map((member, index) => (
