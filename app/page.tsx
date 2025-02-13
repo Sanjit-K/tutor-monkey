@@ -224,7 +224,7 @@ export default function Home() {
                 name: "Jennifer Duan",
                 role: "Tutor",
                 email: "jennifer.duan@tutormonkey.co",
-                bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called &quot;Girls in STEM&quot;, dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I&apos;ve qualified for exclusive state and national tournaments.",
+                bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called 'Girls in STEM', dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I've qualified for exclusive state and national tournaments.",
                 image: "https://i.postimg.cc/cLrsHKsn/IMG-1199.jpg",
               },
             ].map((member, index) => (
