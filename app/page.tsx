@@ -3,15 +3,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { BookOpenIcon, GraduationCapIcon, RocketIcon } from "lucide-react"
 import MovingBlobs from "@/components/MovingBlobs"
-import React, { useState } from 'react'
-import Modal from '@/components/Modal'
+import React from 'react'
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
-  const flyerImageSrc = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Tutor%20Monkey%20Flyer%20(4)-gP9To3ayYkpCEj0H5HwFMo0yCU8Xv2.png"
-
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-between bg-gradient-to-br from-yellow-50 to-yellow-100 text-slate-800 overflow-hidden">
@@ -47,13 +42,13 @@ export default function Home() {
               <div className="space-y-4 text-lg text-slate-700 animate-fade-in-left">
                 <div className="shadow-lg bg-white/30 p-6 rounded-lg backdrop-blur-sm">
                   <p>
-                    At Tutor Monkey, we believe that education is a foundational tenet for every individual's past, present, and future. It serves as a springboard to the heights of academia, the mysteries of science, and the rigor of the workforce. Wherever your path leads you, education will help you get there.
+                    At Tutor Monkey, we believe that education is a foundational tenet for every individual&apos;s past, present, and future. It serves as a springboard to the heights of academia, the mysteries of science, and the rigor of the workforce. Wherever your path leads you, education will help you get there.
                   </p>
                   <p className="mt-2">
-                    Our mission is to provide resources and lessons to ensure every student's success. We guarantee personalized, quality education to set future generations up for success. Our team consists of various students attending a variety of high schools in the DFW area, all with different areas of expertise, ensuring an exceptional experience.
+                    Our mission is to provide resources and lessons to ensure every student&apos;s success. We guarantee personalized, quality education to set future generations up for success. Our team consists of various students attending a variety of high schools in the DFW area, all with different areas of expertise, ensuring an exceptional experience.
                   </p>
                   <p className="mt-2">
-                    Tutor Monkey is dedicated to helping K-9 students succeed. We connect learners with knowledgeable tutors who provide clear, personalized guidance to tackle academic challenges. Whether it's mastering math, improving reading skills, or preparing for exams, Tutor Monkey is here to make learning easier and more accessible.
+                    Tutor Monkey is dedicated to helping K-9 students succeed. We connect learners with knowledgeable tutors who provide clear, personalized guidance to tackle academic challenges. Whether it&apos;s mastering math, improving reading skills, or preparing for exams, Tutor Monkey is here to make learning easier and more accessible.
                   </p>
                 </div>
               </div>
@@ -120,7 +115,7 @@ export default function Home() {
               <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
                 <h2 className="mb-4 text-4xl font-bold text-yellow-600 drop-shadow-lg">1-on-1 Sessions</h2>
                 <p className="mb-4 text-xl text-slate-700">
-                  Share the learning experience with Tutor Monkey! For every friend you refer, you'll earn one free class to use on any subject. There's no limit—refer more friends, get more free classes!*
+                  Share the learning experience with Tutor Monkey! For every friend you refer, you&apos;ll earn one free class to use on any subject. There&apos;s no limit—refer more friends, get more free classes!*
                 </p>
                 <p className="mb-8 text-sm text-slate-600">* Free classes valid indefinitely.</p>
                 
@@ -140,7 +135,6 @@ export default function Home() {
                     width={600}
                     height={400}
                     className="rounded-lg shadow-2xl border-2 border-yellow-200 cursor-pointer"
-                    onClick={() => setIsModalOpen(true)} // Maintain click functionality
                   />
                 </div>
               </div>
@@ -204,7 +198,7 @@ export default function Home() {
                   bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called 'Girls in STEM', dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I've qualified for exclusive state and national tournaments.",
                   image: "https://i.postimg.cc/cLrsHKsn/IMG-1199.jpg",
                 },
-              ].map((member, index) => (
+              ].map((member) => (
                 <div key={member.name} className="cursor-pointer bg-white/30 rounded-lg p-6 backdrop-filter backdrop-blur-xl border border-yellow-200 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-fade-in-up">
                   <div className="relative w-36 h-36 mx-auto mb-4 rounded-full overflow-hidden border-2 border-yellow-200 shadow-lg">
                     <Image src={member.image || "/placeholder.svg"} alt={member.name} layout="fill" className="object-cover" />
