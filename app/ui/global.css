@@ -9,6 +9,10 @@
   --text: #1e293b; /* Slate 800 */
 }
 
+.btn{
+  border-radius:1rem;
+}
+
 body {
   color: var(--text);
   background: var(--background);

@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import "@/app/ui/global.css"
 import { Hanken_Grotesk } from "next/font/google"
 import type React from "react"
