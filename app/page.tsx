@@ -225,7 +225,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center relative z-10">
             <h2 className="mb-6 text-4xl font-bold text-yellow-600 drop-shadow-lg animate-fade-in-up">Contact Information</h2>
             <div className="bg-white/30 p-6 rounded-lg shadow-lg backdrop-blur-sm max-w-md mx-auto animate-fade-in-up animation-delay-200">
-              <p className="mb-2 text-slate-700">Mobile: (469) 562-1906</p>
+              <p className="mb-2 text-slate-700">Mobile: (469) 609-7184</p>
               <p className="text-slate-700">Email: info@tutormonkey.co</p>
             </div>
           </div>
