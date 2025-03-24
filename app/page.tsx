@@ -24,7 +24,7 @@ export default function Home() {
                   Sign Up
                 </Button>
               </Link>
-              <Link href="#about-us" className="inline-flex">
+              <Link href="#team" className="inline-flex">
                 <Button className="btn btn-secondary rounded-lg text-white">
                   Meet The Tutors
                 </Button>
@@ -102,7 +102,7 @@ export default function Home() {
                 </div>
                 <div className="mt-4">
                   <Image
-                    src="https://i.postimg.cc/xqV1Q7HW/temp-Image83-YQ0-C.avif" // Replace with actual flyer image URL
+                    src="https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/Purple%20Illustrated%20School%20Tutor%20Flyer-3-JUfVMURlkt7O8s64ZFR5HxGGWhPuq9.png" // Replace with actual flyer image URL
                     alt="AP Precal Bootcamp Flyer"
                     width={600}
                     height={400}
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className="mt-4">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Tutor%20Monkey%20Flyer%20(4)-gP9To3ayYkpCEj0H5HwFMo0yCU8Xv2.png" // Replace with actual flyer image URL
+                    src="https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/Tutor%20Monkey%20Flyer-3-m2GlPTV94iFRzGWqGQJqF56E619i7A.png" // Replace with actual flyer image URL
                     alt="1-on-1 Flyer"
                     width={600}
                     height={400}
@@ -154,49 +154,49 @@ export default function Home() {
                   role: "Co-Founder",
                   email: "joshua.wu@tutormonkey.co",
                   bio: "Hi, my name is Joshua Wu and I'm a sophomore at Jasper High School. Currently, I'm taking classes such as AP Calculus BC and Engineering Science. Additionally, I received a 5 on the AP Human Geography Exam last year and achieved a perfect score on the math section of the PSAT two years in a row. My specialty subject is math. In my freetime, I like to work on robotics or participating in debate.",
-                  image: "https://i.postimg.cc/TP2k3xZg/unnamed.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/unnamed-eGY6Whmh7dGAAZtASyIsCz62iLduCH.jpg",
                 },
                 {
                   name: "Sanjit Konda",
                   role: "Co-Founder",
                   email: "sanjit.konda@tutormonkey.co",
                   bio: "Hello! My name is Sanjit Konda and I am a sophomore at Jasper High School. Some of my notable courses are AP Calculus BC, AP environmental science, and Engineering Science. I received a perfect math score on the PSAT for two years in a row. I have the most expertise in science and math. During my freetime, I enjoy video editing, music production, and robotics.",
-                  image: "https://i.postimg.cc/q7dzVZQD/IMG-0802-Sanjit-Konda.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-0802-Sanjit-Konda-YoqPw5bijMHMAxc7KZzsTn2U4fF62k.jpg",
                 },
                 {
                   name: "James Chen",
                   role: "Co-Founder",
                   email: "james.chen@tutormonkey.co",
                   bio: "Hi! My name is James Chen, and I'm a sophomore at Jasper High School. I'm enrolled in 4 AP courses this year. I received a 5 on the AP Human Geography exam. My focus is reading/writing. In my freetime, I enjoy using applied skills to build personal projects and participating in Speech and Debate at Jasper. I look forward to working with all of you!",
-                  image: "https://i.postimg.cc/xTHpstvJ/IMG-1402.avif",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-1402-35wmiTR9xfiXcMZPhotSW4d5M2sGtE.avif",
                 },
                 {
                   name: "Joshua Gan",
                   role: "Co-Founder",
                   email: "joshua.gan@example.com",
                   bio: "Hi, I'm Joshua Gan, a sophomore at Jasper High School. I'm currently projected to be in the top 10 at Jasper, and I'm currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I'm free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
-                  image: "https://i.postimg.cc/DfqnGdS6/IMG-2883-2.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-2883-2-jx20bfGwiqDvc13R6MipmcUHVt5mFn.jpg",
                 },
                 {
                   name: "Skanda Gopikannan",
                   role: "Co-Founder",
                   email: "skanda.gopikannan@tutormonkey.co",
                   bio: "My name is Skanda - I'm currently a sophomore at Jasper High School. Im currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
-                  image: "https://i.postimg.cc/Zq9wdH55/DSCN2347.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/DSCN2347-GlLns1OcvRELxp859oNQgGNWlnllHo.jpg",
                 },
                 {
                   name: "Matthew Xie",
                   role: "Tutor",
                   email: "matthew.xie@tutormonkey.co",
                   bio: "Hi! I am Matthew Xie, a sophomore at Jasper High School. Some of my achievements include DHR on AMC10, Gold on BPhO IPC, Silver in PhysicsBowl, and perfect score on USACO Bronze. I also got a 5 in AP Psychology and AP Physics 1, and I am currently taking AP Calculus BC. I specialize in math, physics, and computer science competitions. I also play baseball for Plano West, and in my free time, I enjoy playing piano as well as electric guitar and bass.",
-                  image: "https://i.postimg.cc/7ZV092gW/f8ee5f5ed6e13f483e0d6da742bdb7bd.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/f8ee5f5ed6e13f483e0d6da742bdb7bd-2M5ZEm2APCQfTeGJMEvA12LizxuWLI.jpg",
                 },
                 {
                   name: "Jennifer Duan",
                   role: "Tutor",
                   email: "jennifer.duan@tutormonkey.co",
                   bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called 'Girls in STEM', dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I've qualified for exclusive state and national tournaments.",
-                  image: "https://i.postimg.cc/cLrsHKsn/IMG-1199.jpg",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-1199-TKBjsyXDUxbAtzPFqh405O1YexA1bT.jpg",
                 },
               ].map((member) => (
                 <div key={member.name} className="cursor-pointer bg-white/30 rounded-lg p-6 backdrop-filter backdrop-blur-xl border border-yellow-200 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-fade-in-up">
