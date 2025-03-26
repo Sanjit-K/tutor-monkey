@@ -198,6 +198,20 @@ export default function Home() {
                   bio: "Hi! My name is Jennifer, and I'm a sophomore at Jasper High School. Over the past two years, I've taken six AP classes, and I am currently enrolled in AP Calculus BC, AP Environmental Science, Engineering Science, AP Seminar, and AP World History. I qualified for the regional science fair with a project on corticosteroids, winning first place in Jasper. I am also an officer of an organization called 'Girls in STEM', dedicated to helping marginalized women achieve their dreams. Outside of school, I am heavily involved in debate, where I've qualified for exclusive state and national tournaments.",
                   image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-1199-TKBjsyXDUxbAtzPFqh405O1YexA1bT.jpg",
                 },
+                {
+                  name: "Enoch Chan",
+                  role: "Tutor",
+                  email: "enoch.chan@tutormonkey.co",
+                  bio: "Hi! I am Enoch Chan, a sophomore at Jasper High School. I contributed to my private robotics team’s advancement to the state level and individually qualified for MATHCOUNTS state, where my team placed in the top 10. I have participated in the AMC 8 and 10 every year since 2017 and have achieved notable scores. Academically, I earned a 5 on the AP Human Geography exam and currently maintain a 97+ in AP Seminar, AP Environmental Science, AP Calculus BC, AP Computer Science, AP World History, and Engineering Science. I also achieved a perfect score in PSAT Math, placing among the top 1% of test takers. I specialize in math and science, particularly excelling in calculus. In my free time, I play the violin and have earned notable rankings in regional competitions. I also used to play ping pong recreationally.",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/image-fC8WqYD4QsETbVDZ1TzNXSlJ4jJFI9.jpeg",
+                },
+                {
+                  name: "Ishaan Nirmal",
+                  role: "Tutor",
+                  email: "ishaan.nirmal@tutormonkey.co",
+                  bio: "Hi! My name is Ishaan Nirmal and I am a sophomore at Jasper High School. Some of my achievements include winning the UIL State FTC Robotics competition, founding the AI club at Jasper, and winning 2nd place at the Texas Junior Academy of Science Competition. I have completed precalculus in freshman year and am taking several AP courses, such as Environmental Sciences and Capstone Research. I am also a published researcher and focus especially on combining healthcare and artificial intelligence. One research paper I have published is 'Impact of Artificial Intelligence on Autism Spectrum Disorder.' In my free time, I like to cook, read, and play video games.",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/image1-KrftDSKS1miIxywgJr4uoudTbuLBfT.png",
+                },
               ].map((member) => (
                 <div key={member.name} className="cursor-pointer bg-white/30 rounded-lg p-6 backdrop-filter backdrop-blur-xl border border-yellow-200 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-fade-in-up">
                   <div className="relative w-36 h-36 mx-auto mb-4 rounded-full overflow-hidden border-2 border-yellow-200 shadow-lg">
