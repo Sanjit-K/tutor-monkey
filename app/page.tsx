@@ -80,7 +80,7 @@ export default function Home() {
               <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
                 <h2 className="mb-4 text-4xl font-bold text-yellow-600 drop-shadow-lg">AP Precal Bootcamp</h2>
                 <p className="mb-2 text-xl text-slate-700">
-                  Join our AP Precal Bootcamp every Saturday from April 19th to May 10th, from 2 PM to 4 PM (excluding April 26th).
+                  Join our AP Precal Bootcamp every Saturday from April 19th to May 10th, from 2 PM to 4 PM (excluding April 26th) at Huayi Education 6921 Independence Pkwy # 270, Plano, TX 75023.
                   Each class is 2 hours long, and the total course fee is <strong>$20 for 3 courses</strong>.
                 </p>
                 <ul className="list-disc list-inside mb-4 text-slate-700">
@@ -174,14 +174,14 @@ export default function Home() {
                   name: "Joshua Gan",
                   role: "Co-Founder",
                   email: "joshua.gan@example.com",
-                  bio: "Hi, I'm Joshua Gan, a sophomore at Jasper High School. I'm currently projected to be in the top 10 at Jasper, and I'm currently in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years. My best subjects are math, English, and history. When I'm free, I enjoy going on Boy Scout outings and reading. I look forward to working with all of you!",
+                  bio: "Hi, I'm Joshua Gan, a sophomore at Jasper High School projected to be in the top 10. I'm currently enrolled in AP Calculus BC and have scored perfectly on the math section of the PSAT for the last two years; I'm also in AP Seminar, where I have maintained an A grade and written multiple lengthy academically researched papers. My best subjects are math and English (especially essay writing), but I can also help with presentation skills/making. I have participated in the Business Professionals of America, where I placed 4th place in the state in Economic Research Team where I wrote an academic essay and gave a presentation to a panel of experts. When I'm free, I enjoy going on Boy Scout campouts and reading. I look forward to working with all of you!",
                   image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/IMG-2883-2-jx20bfGwiqDvc13R6MipmcUHVt5mFn.jpg",
                 },
                 {
                   name: "Skanda Gopikannan",
                   role: "Co-Founder",
                   email: "skanda.gopikannan@tutormonkey.co",
-                  bio: "My name is Skanda - I'm currently a sophomore at Jasper High School. Im currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, and have won various different awards at prestigious tournaments and even qualified for the national tournament.",
+                  bio: "My name is Skanda - I'm currently a sophomore at Jasper High School. Im currently enrolled in AP Environmental Science, AP Seminar, AP European History, and AP World History. I mainly focus on English, Science, History, and the Humanities. I participate in Debate, where I've qualified for the TFA State Tournament twice, qualified to the National Tournament my freshman year, placed 5th at the UIL State Tournament my freshman year, got to the Octofinals (Round of 16) at the Texas Longhorn Invitational with over 150 competitors, got to Triples (Round of 64) at the Harvard National Tournament  with over 180 competitors, and got to Doubles (Round of 32) at the TFA State Tournament, competing against the best debaters across Texas. I've consistently won speaker awards and placed first at smaller local tournaments like the Flower Mound Swing, the Coppell Classic, and the UNT John S. Gossett Memorial.",
                   image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/DSCN2347-GlLns1OcvRELxp859oNQgGNWlnllHo.jpg",
                 },
                 {
@@ -202,7 +202,7 @@ export default function Home() {
                   name: "Enoch Chan",
                   role: "Tutor",
                   email: "enoch.chan@tutormonkey.co",
-                  bio: "Hi! I am Enoch Chan, a sophomore at Jasper High School. I contributed to my private robotics team’s advancement to the state level and individually qualified for MATHCOUNTS state, where my team placed in the top 10. I have participated in the AMC 8 and 10 every year since 2017 and have achieved notable scores. Academically, I earned a 5 on the AP Human Geography exam and currently maintain a 97+ in AP Seminar, AP Environmental Science, AP Calculus BC, AP Computer Science, AP World History, and Engineering Science. I also achieved a perfect score in PSAT Math, placing among the top 1% of test takers. I specialize in math and science, particularly excelling in calculus. In my free time, I play the violin and have earned notable rankings in regional competitions. I also used to play ping pong recreationally.",
+                  bio: "Hi! I am Enoch Chan, a sophomore at Jasper High School. I contributed to my private robotics team's advancement to the state level and individually qualified for MATHCOUNTS state, where my team placed in the top 10. I have participated in the AMC 8 and 10 every year since 2017 and have achieved notable scores. Academically, I earned a 5 on the AP Human Geography exam and currently maintain a 97+ in AP Seminar, AP Environmental Science, AP Calculus BC, AP Computer Science, AP World History, and Engineering Science. I also achieved a perfect score in PSAT Math, placing among the top 1% of test takers. I specialize in math and science, particularly excelling in calculus. In my free time, I play the violin and have earned notable rankings in regional competitions. I also used to play ping pong recreationally.",
                   image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/image-fC8WqYD4QsETbVDZ1TzNXSlJ4jJFI9.jpeg",
                 },
                 {
@@ -211,6 +211,13 @@ export default function Home() {
                   email: "ishaan.nirmal@tutormonkey.co",
                   bio: "Hi! My name is Ishaan Nirmal and I am a sophomore at Jasper High School. Some of my achievements include winning the UIL State FTC Robotics competition, founding the AI club at Jasper, and winning 2nd place at the Texas Junior Academy of Science Competition. I have completed precalculus in freshman year and am taking several AP courses, such as Environmental Sciences and Capstone Research. I am also a published researcher and focus especially on combining healthcare and artificial intelligence. One research paper I have published is 'Impact of Artificial Intelligence on Autism Spectrum Disorder.' In my free time, I like to cook, read, and play video games.",
                   image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/image1-KrftDSKS1miIxywgJr4uoudTbuLBfT.png",
+                },
+                {
+                  name: "Andy Lee",
+                  role: "Tutor",
+                  email: "andy.lee@tutormonkey.co",
+                  bio: "Hi! I'm Andy Lee, a sophomore at Jasper High School. Some of my achievements include being a four-time AIME qualifier, receiving distinction on AMC10 for three years, and winning 2nd place at the Texas Junior Academy of Science Competition. In the past, I've taken AP Human Geo, Calculus BC, and APCSP. I mainly focus on STEM subjects. In my free time, I play the viola for the Jasper Orchestra and enjoy playing basketball.",
+                  image: "https://hjjzuvtutyxmmhrd.public.blob.vercel-storage.com/andy_cropped-9Wx5PxxiuAi8ucyZLGi4Xyc0g5yKSO.jpg",
                 },
               ].map((member) => (
                 <div key={member.name} className="cursor-pointer bg-white/30 rounded-lg p-6 backdrop-filter backdrop-blur-xl border border-yellow-200 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-fade-in-up">
