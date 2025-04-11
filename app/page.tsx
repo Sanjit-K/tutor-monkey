@@ -81,7 +81,8 @@ export default function Home() {
               <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
                 <h2 className="mb-4 text-4xl font-bold text-yellow-600 drop-shadow-lg">AP Precal Bootcamp</h2>
                 <p className="mb-2 text-xl text-slate-700">
-                  Join our AP Precal Bootcamp every Saturday from April 19th to May 10th, from 2 PM to 4 PM (excluding April 26th) at Huayi Education 6921 Independence Pkwy # 270, Plano, TX 75023.
+                  Join our AP Precal Bootcamp every Saturday from April 19th to May 10th, from 2 PM to 4 PM (excluding April 26th) at Frisco Library - 8000 Dallas Pkwy, Frisco, TX 75034
+                  .
                   Each class is 2 hours long, and the total course fee is <strong>$20 for 3 courses</strong>.
                 </p>
                 <ul className="list-disc list-inside mb-4 text-slate-700">
