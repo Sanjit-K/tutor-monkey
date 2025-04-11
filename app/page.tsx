@@ -214,13 +214,6 @@ export default function Home() {
                   bio: "Hi! My name is Ishaan Nirmal and I am a sophomore at Jasper High School. Some of my achievements include winning the UIL State FTC Robotics competition, founding the AI club at Jasper, and winning 2nd place at the Texas Junior Academy of Science Competition. I have completed precalculus in freshman year and am taking several AP courses, such as Environmental Sciences and Capstone Research. I am also a published researcher and focus especially on combining healthcare and artificial intelligence. One research paper I have published is 'Impact of Artificial Intelligence on Autism Spectrum Disorder.' In my free time, I like to cook, read, and play video games.",
                   image: LINKS.ishaanNirmalImage,
                 },
-                {
-                  name: "Andy Lee",
-                  role: "Tutor",
-                  email: "andy.lee@tutormonkey.co",
-                  bio: "Hi! I'm Andy Lee, a sophomore at Jasper High School. Some of my achievements include being a four-time AIME qualifier, receiving distinction on AMC10 for three years, and winning 2nd place at the Texas Junior Academy of Science Competition. In the past, I've taken AP Human Geo, Calculus BC, and APCSP. I mainly focus on STEM subjects. In my free time, I play the viola for the Jasper Orchestra and enjoy playing basketball.",
-                  image: LINKS.andyLeeImage,
-                },
               ].map((member) => (
                 <div key={member.name} className="cursor-pointer bg-white/30 rounded-lg p-6 backdrop-filter backdrop-blur-xl border border-yellow-200 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-fade-in-up">
                   <div className="relative w-36 h-36 mx-auto mb-4 rounded-full overflow-hidden border-2 border-yellow-200 shadow-lg">
