@@ -78,7 +78,7 @@ export default function Home() {
             <h2 className="mb-6 text-5xl font-bold text-center text-yellow-600 drop-shadow-lg animate-fade-in-up">Our Services</h2>
             <div className="flex flex-col md:flex-row justify-between items-start gap-8">
               {/* AP Precal Bootcamp Section */}
-              <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
+              {/* <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
                 <h2 className="mb-4 text-4xl font-bold text-yellow-600 drop-shadow-lg">AP Precal Bootcamp</h2>
                 <p className="mb-2 text-xl text-slate-700">
                   Join our AP Precal Bootcamp every Saturday from April 19th to May 10th, from 2 PM to 4 PM (excluding April 26th) at Frisco Library - 8000 Dallas Pkwy, Frisco, TX 75034
@@ -111,7 +111,7 @@ export default function Home() {
                     className="rounded-lg shadow-2xl border-2 border-yellow-200"
                   />
                 </div>
-              </div>
+              </div> */}
 
               {/* 1-on-1 Sessions Section */}
               <div className="max-w-lg mx-auto bg-white/30 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg p-6 transform hover:-translate-y-1 transition-all duration-300 border-2 border-yellow-200 animate-fade-in-up">
