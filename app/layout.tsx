@@ -1,14 +1,12 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import "@/app/ui/global.css"
-import { Hanken_Grotesk } from "next/font/google"
+import "@/app/globals.css"
+import "@/styles/theme.css"
 import type React from "react"
-
-const hankenGrotesk = Hanken_Grotesk({ subsets: ["latin"] })
+import { ThemeProvider } from "@/components/ThemeProvider"
 
 export const metadata = {
-  title: "Tutor Monkey - Swing into Success",
+  title: "Tutor Monkey - Personalized Education",
   description:
-    "Tutor Monkey offers personalized tutoring services to help K-9 students succeed in their academic journey.",
+    "Expert tutoring services for K-9 students. Personalized education with proven results from top DFW area high school students.",
   icons: {
     icon: [
       {
@@ -26,7 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={hankenGrotesk.className}>{children}</body>
+      <body className="antialiased">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   )
 }

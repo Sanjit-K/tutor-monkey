@@ -1,0 +1,39 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    /* Background colors */
+    --bgPrimary: theme(colors.white);
+    --bgSecondary: theme(colors.gray.50);
+    --bgNavbar: theme(colors.white / 0.1);
+    --bgFooter: theme(colors.gray.900);
+    --bgButton: theme(colors.gray.900);
+    --bgButtonHover: theme(colors.gray.800);
+    --bgButtonSecondary: transparent;
+    --bgButtonSecondaryHover: theme(colors.gray.50);
+    
+    /* Text colors */
+    --textPrimary: theme(colors.gray.900);
+    --textSecondary: theme(colors.gray.600);
+    --textTertiary: theme(colors.gray.400);
+    --textLight: theme(colors.gray.50);
+    
+    /* Border colors */
+    --borderPrimary: theme(colors.gray.200);
+    --borderSecondary: theme(colors.gray.800);
+    --borderNavbar: theme(colors.white / 0.3);
+    
+    /* Special effects */
+    --shadowColor: theme(colors.black / 0.1);
+    --navbarBlur: xl;
+    --navbarBlendMode: difference;
+    
+    /* Transitions */
+    --transitionDuration: 300ms;
+    --transitionTiming: ease-out;
+    
+    /* Animation timings */
+    --animationDuration: 0.8s;
+    --animationDelay: 0.2s;
+  }
+}

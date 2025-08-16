@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import { VersionSwitcher } from "@/components/version-switcher"
 import {
   Sidebar,
   SidebarContent,
@@ -14,131 +13,96 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 
-// This is sample data.
+// Navigation data for Tutor Monkey
 const data = {
-  versions: ["1.0.1", "1.1.0-alpha", "2.0.0-beta1"],
   navMain: [
     {
-      title: "Getting Started",
+      title: "Dashboard",
       url: "#",
       items: [
         {
-          title: "Installation",
-          url: "#",
-        },
-        {
-          title: "Project Structure",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Building Your Application",
-      url: "#",
-      items: [
-        {
-          title: "Routing",
-          url: "#",
-        },
-        {
-          title: "Data Fetching",
+          title: "Overview",
           url: "#",
           isActive: true,
         },
         {
-          title: "Rendering",
+          title: "Analytics",
           url: "#",
         },
         {
-          title: "Caching",
-          url: "#",
-        },
-        {
-          title: "Styling",
-          url: "#",
-        },
-        {
-          title: "Optimizing",
-          url: "#",
-        },
-        {
-          title: "Configuring",
-          url: "#",
-        },
-        {
-          title: "Testing",
-          url: "#",
-        },
-        {
-          title: "Authentication",
-          url: "#",
-        },
-        {
-          title: "Deploying",
-          url: "#",
-        },
-        {
-          title: "Upgrading",
-          url: "#",
-        },
-        {
-          title: "Examples",
+          title: "Reports",
           url: "#",
         },
       ],
     },
     {
-      title: "API Reference",
+      title: "Students",
       url: "#",
       items: [
         {
-          title: "Components",
+          title: "All Students",
           url: "#",
         },
         {
-          title: "File Conventions",
+          title: "Active Sessions",
           url: "#",
         },
         {
-          title: "Functions",
-          url: "#",
-        },
-        {
-          title: "next.config.js Options",
-          url: "#",
-        },
-        {
-          title: "CLI",
-          url: "#",
-        },
-        {
-          title: "Edge Runtime",
+          title: "Progress Tracking",
           url: "#",
         },
       ],
     },
     {
-      title: "Architecture",
+      title: "Tutors",
       url: "#",
       items: [
         {
-          title: "Accessibility",
+          title: "Team Members",
           url: "#",
         },
         {
-          title: "Fast Refresh",
+          title: "Schedules",
           url: "#",
         },
         {
-          title: "Next.js Compiler",
+          title: "Performance",
+          url: "#",
+        },
+      ],
+    },
+    {
+      title: "Services",
+      url: "#",
+      items: [
+        {
+          title: "1-on-1 Sessions",
           url: "#",
         },
         {
-          title: "Supported Browsers",
+          title: "Group Classes",
           url: "#",
         },
         {
-          title: "Turbopack",
+          title: "Special Programs",
+          url: "#",
+        },
+      ],
+    },
+    {
+      title: "Settings",
+      url: "#",
+      items: [
+        {
+          title: "Profile",
+          url: "#",
+        },
+        {
+          title: "Preferences",
+          url: "#",
+        },
+        {
+          title: "Notifications",
           url: "#",
         },
       ],
@@ -149,22 +113,26 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar {...props}>
-      <SidebarHeader>
-        <VersionSwitcher
-          versions={data.versions}
-          defaultVersion={data.versions[0]}
-        />
+      <SidebarHeader className="border-b border-gray-200">
+        <div className="flex items-center px-4 py-3">
+          <div className="text-xl font-semibold text-gray-900">Tutor Monkey</div>
+        </div>
       </SidebarHeader>
       <SidebarContent>
-        {/* We create a SidebarGroup for each parent. */}
         {data.navMain.map((item) => (
           <SidebarGroup key={item.title}>
-            <SidebarGroupLabel>{item.title}</SidebarGroupLabel>
+            <SidebarGroupLabel className="text-xs font-medium text-gray-500 uppercase tracking-wider px-4 py-2">
+              {item.title}
+            </SidebarGroupLabel>
             <SidebarGroupContent>
               <SidebarMenu>
                 {item.items.map((item) => (
                   <SidebarMenuItem key={item.title}>
-                    <SidebarMenuButton asChild isActive={item.isActive}>
+                    <SidebarMenuButton 
+                      asChild 
+                      isActive={item.isActive}
+                      className="text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-colors"
+                    >
                       <a href={item.url}>{item.title}</a>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
