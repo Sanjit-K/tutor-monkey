@@ -17,22 +17,11 @@ export default function ResourcesPage() {
             Access free study guides, review sheets, and practice materials for a variety of subjects. More coming soon!
           </p>
         </div>
-        {/* Example resource cards */}
-        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 mt-8">
+        {/* Placeholder resource card */}
+        <div className="max-w-5xl mx-auto flex justify-center">
           <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-center">
-            <h2 className="text-xl font-semibold mb-2">Algebra I Review Sheet</h2>
-            <p className="text-gray-600 mb-4 text-sm">Key concepts, formulas, and practice problems for Algebra I.</p>
-            <a href="#" className="text-blue-600 hover:underline font-medium">Download PDF</a>
-          </div>
-          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-center">
-            <h2 className="text-xl font-semibold mb-2">AP Biology Study Guide</h2>
-            <p className="text-gray-600 mb-4 text-sm">Comprehensive guide for AP Biology exam prep.</p>
-            <a href="#" className="text-blue-600 hover:underline font-medium">Download PDF</a>
-          </div>
-          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-center">
-            <h2 className="text-xl font-semibold mb-2">SAT Math Practice</h2>
-            <p className="text-gray-600 mb-4 text-sm">Practice questions and tips for SAT Math section.</p>
-            <a href="#" className="text-blue-600 hover:underline font-medium">Download PDF</a>
+            <h2 className="text-xl font-semibold mb-2">Resources Coming Soon</h2>
+            <p className="text-gray-600 mb-4 text-sm">We&apos;re working on adding free study and review materials. Check back soon!</p>
           </div>
         </div>
       </section>

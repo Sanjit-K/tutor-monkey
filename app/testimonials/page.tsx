@@ -6,6 +6,7 @@ import React from 'react'
 import Navigation from "@/components/Navigation";
 import { motion, AnimatePresence } from 'framer-motion';
 import { useIsClient } from '@/hooks/useIsClient';
+import Footer from "@/components/Footer";
 
 export default function TestimonialsPage() {
   const isClient = useIsClient();
@@ -245,48 +246,7 @@ export default function TestimonialsPage() {
         </motion.section>
 
         {/* Footer */}
-        <motion.footer 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 2.8 }}
-          className="py-12 px-6 bg-gray-900 text-white"
-        >
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-4 gap-8">
-              <div>
-                <div className="text-2xl font-semibold mb-4 font-display">Tutor Monkey</div>
-                <p className="text-gray-400 font-light">Tutoring by students, for students</p>
-              </div>
-              <div>
-                <h3 className="font-medium mb-4">Services</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/subjects" className="hover:text-white transition-colors font-light">Subjects</Link></li>
-                  <li><Link href="/book" className="hover:text-white transition-colors font-light">Book a Session</Link></li>
-                  <li><Link href="/tutors" className="hover:text-white transition-colors font-light">Meet Tutors</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-medium mb-4">Company</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/about" className="hover:text-white transition-colors font-light">About</Link></li>
-                  <li><Link href="/testimonials" className="hover:text-white transition-colors font-light">Testimonials</Link></li>
-                  <li><Link href="/join" className="hover:text-white transition-colors font-light">Join as Tutor</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-medium mb-4">Contact</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/contact" className="hover:text-white transition-colors font-light">Contact Us</Link></li>
-                  <li className="font-light">info@tutormonkey.co</li>
-                  <li className="font-light">Plano, TX</li>
-                </ul>
-              </div>
-            </div>
-            <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p className="font-light">© 2024 Tutor Monkey. All rights reserved.</p>
-            </div>
-          </div>
-        </motion.footer>
+        <Footer />
       </motion.main>
     </AnimatePresence>
   );

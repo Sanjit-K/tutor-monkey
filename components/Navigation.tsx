@@ -20,13 +20,10 @@ export default function Navigation() {
   }
 
   return (
-    <AnimatePresence mode="wait">
-      <motion.nav
+    
+      <nav
         key="navigation"
         className="fixed top-4 left-0 right-0 z-50 pointer-events-none"
-        initial={{ opacity: 0, y: -40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
         role="navigation"
         aria-label="Primary"
       >
@@ -99,7 +96,7 @@ export default function Navigation() {
             )}
           </AnimatePresence>
         </div>
-      </motion.nav>
-    </AnimatePresence>
+      </nav>
+    
   )
 }
