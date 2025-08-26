@@ -12,68 +12,40 @@ export default function TestimonialsPage() {
   const isClient = useIsClient();
   const testimonials = [
     {
-      quote: "My daughter's math grades improved dramatically after just a few sessions. The tutors really understand what's being taught in class.",
-      author: "S.M.",
-      role: "Plano West Parent",
-      rating: 5,
-      category: "parent"
-    },
-    {
-      quote: "Being a tutor has been amazing. I love helping other students and it's great experience for college applications.",
-      author: "J.W.",
-      role: "Junior at Plano West",
-      rating: 5,
-      category: "tutor"
-    },
-    {
-      quote: "The SAT prep sessions were incredibly helpful. I improved my score by 200 points!",
-      author: "A.K.",
-      role: "Senior at Plano West",
-      rating: 5,
-      category: "student"
-    },
-    {
-      quote: "My son was struggling with chemistry, but after working with his tutor, he's now getting A's. Highly recommend!",
-      author: "M.L.",
-      role: "Plano Senior Parent",
-      rating: 5,
-      category: "parent"
-    },
-    {
-      quote: "I joined as a tutor because I wanted to give back to my community. The leadership opportunities are incredible.",
-      author: "R.T.",
-      role: "Junior at Plano West",
-      rating: 5,
-      category: "tutor"
-    },
-    {
-      quote: "The AP Calculus help was exactly what I needed. My tutor explained concepts in ways that actually made sense.",
-      author: "L.C.",
-      role: "Senior at Plano East",
-      rating: 5,
-      category: "student"
-    },
-    {
-      quote: "Affordable, flexible, and effective. My daughter can schedule sessions around her busy schedule.",
-      author: "D.P.",
-      role: "Plano West Parent",
-      rating: 5,
-      category: "parent"
-    },
-    {
-      quote: "I love seeing the 'aha' moments when students finally understand a difficult concept.",
-      author: "E.C.",
-      role: "Junior at Plano West",
-      rating: 5,
-      category: "tutor"
-    },
-    {
-      quote: "The English essay help was fantastic. I went from a C to an A in just a few weeks.",
-      author: "K.M.",
-      role: "Junior at Plano Senior",
-      rating: 5,
-      category: "student"
-    }
+  quote: "We are so grateful for Matthew's support! His patience, knowledge, and engaging teaching style have greatly impacted my learning. He explains concepts clearly and makes lessons enjoyable, which has boosted my confidence and progress.",
+  author: "J.H.",
+  role: "Sophomore at Greenhill High School",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "The AP Calculus help was exactly what I needed. My tutor walked me through tough problems and made sure I understood each step.",
+  author: "L.C.",
+  role: "Sophomore at Jasper High School",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "I used to struggle in chemistry, but tutoring sessions made it much clearer. My grades improved and I feel more confident in class.",
+  author: "M.L.",
+  role: "Junior at Plano Senior",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "Tutoring gave me a chance to ask questions I didn’t feel comfortable asking in class. It really helped me keep up with the material.",
+  author: "E.C.",
+  role: "Junior at Plano West",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "I saw a big difference in how I approach homework after just a few sessions. I understand the concepts instead of just memorizing.",
+  author: "--",
+  role: "--",
+  rating: 5,
+  category: "student"
+}
   ];
 
   if (!isClient) {
@@ -114,7 +86,7 @@ export default function TestimonialsPage() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto font-light"
             >
-              Real stories from students, parents, and tutors about their Tutor Monkey experience
+              Real stories from students and parents about their Tutor Monkey experience
             </motion.p>
           </div>
         </motion.section>
