@@ -1,7 +1,6 @@
 "use client";
 
 import Navigation from "@/components/Navigation";
-
 import React from "react";
 
 export default function ResourcesPage() {
@@ -17,12 +16,33 @@ export default function ResourcesPage() {
             Access free study guides, review sheets, and practice materials for a variety of subjects. More coming soon!
           </p>
         </div>
-        {/* Placeholder resource card */}
-        <div className="max-w-5xl mx-auto flex justify-center">
-          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-center">
-            <h2 className="text-xl font-semibold mb-2">Resources Coming Soon</h2>
-            <p className="text-gray-600 mb-4 text-sm">We&apos;re working on adding free study and review materials. Check back soon!</p>
-          </div>
+        <div className="max-w-5xl mx-auto flex flex-col gap-6">
+
+          {/* New resource card: AP Calculus BC Limits Review */}
+          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-start">
+            <h2 className="text-xl font-semibold mb-2">
+              AP Calculus BC Limits Review
+            </h2>
+            <p className="text-gray-600 mb-4 text-sm">
+              Unit 1 review for limits
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1FNq46-rMfjQJdkoH7dM9_09dcYq_qi4y/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              View PDF
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1VcbykiwHt6-4fw1gi4TV_atsV7b3i6H_/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              View Key
+            </a>
+          </div>          
         </div>
       </section>
     </main>
