@@ -2,10 +2,14 @@
 
 import Navigation from "@/components/Navigation";
 import React from "react";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-NB1S7LFN86");
 
 export default function ResourcesPage() {
   return (
     <main className="min-h-screen bg-white">
+      
       <Navigation />
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -31,6 +35,10 @@ export default function ResourcesPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
+              onClick={() => ReactGA.event("download", {
+                category: "Resources",
+                label: "AP Calculus BC Limits Review PDF"
+              })}
             >
               View PDF
             </a>
@@ -39,6 +47,10 @@ export default function ResourcesPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
+              onClick={() => ReactGA.event("download", {
+                category: "Resources",
+                label: "AP Calculus BC Limits Review Key"
+              })}
             >
               View Key
             </a>

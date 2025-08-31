@@ -1,6 +1,7 @@
-"use client";
+ "use client";
 
 import React from 'react';
+import ReactGA from "react-ga4";
 import Navigation from '@/components/Navigation';
 import AutoPlayTextSequence from '@/components/AutoPlayTextSequence';
 import TutorsSection from '@/components/TutorsSection';
@@ -9,8 +10,16 @@ import Footer from '@/components/Footer';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useIsClient } from '@/hooks/useIsClient';
 
+ReactGA.initialize("G-NB1S7LFN86");
+
 export default function Home() {
   const isClient = useIsClient();
+
+  React.useEffect(() => {
+    if (isClient) {
+      ReactGA.send("pageview");
+    }
+  }, [isClient]);
 
   if (!isClient) {
     return <main className="min-h-screen bg-white opacity-0" />;
