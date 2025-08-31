@@ -100,8 +100,7 @@ export default function AboutPage() {
                   relatable and effective learning experiences.
                 </p>
                 <p className="text-lg text-gray-600 font-light">
-                  As a for-profit organization, we&apos;re committed to reinvesting in our platform and services 
-                  to continuously improve the learning experience for students and tutors alike.
+                  As a nonprofit organization, we reinvest every dollar back into our programs and platform, and we donate a portion of proceeds to education initiatives and classroom grants in our community.
                 </p>
               </motion.div>
             </div>
@@ -137,7 +136,7 @@ export default function AboutPage() {
                 },
                 {
                   title: "Community Impact",
-                  description: "We're committed to building a strong educational community and continuously improving our platform to better serve students and tutors."
+                  description: "We're committed to building a strong educational community, reinvesting in our programs, and donating to education initiatives."
                 }
               ].map((value, index) => (
                 <motion.div
