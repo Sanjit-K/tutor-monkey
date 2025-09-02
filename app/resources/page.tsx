@@ -2,14 +2,10 @@
 
 import Navigation from "@/components/Navigation";
 import React from "react";
-import ReactGA from "react-ga4";
-
-ReactGA.initialize("G-NB1S7LFN86");
 
 export default function ResourcesPage() {
   return (
     <main className="min-h-screen bg-white">
-      
       <Navigation />
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -20,41 +16,41 @@ export default function ResourcesPage() {
             Access free study guides, review sheets, and practice materials for a variety of subjects. More coming soon!
           </p>
         </div>
-        <div className="max-w-5xl mx-auto flex flex-col gap-6">
 
-          {/* New resource card: AP Calculus BC Limits Review */}
+        <div className="max-w-5xl mx-auto flex flex-col gap-6">
+          {/* Resource card */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex flex-col items-start">
             <h2 className="text-xl font-semibold mb-2">
               AP Calculus BC Limits Review
             </h2>
-            <p className="text-gray-600 mb-4 text-sm">
-              Unit 1 review for limits
-            </p>
+            <p className="text-gray-600 mb-4 text-sm">Unit 1 review for limits</p>
+
             <a
+              id="calc-bc-limits-pdf"
               href="https://drive.google.com/file/d/1FNq46-rMfjQJdkoH7dM9_09dcYq_qi4y/view?usp=sharing"
               target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-              onClick={() => ReactGA.event("download", {
-                category: "Resources",
-                label: "AP Calculus BC Limits Review PDF"
-              })}
+              rel="noopener noreferrer nofollow"
+              className="text-blue-600 hover:underline mb-2"
+              data-gtm="download"
+              data-gtm-label="AP Calculus BC Limits Review PDF"
+              aria-label="Open AP Calculus BC Limits Review PDF"
             >
               View PDF
             </a>
+
             <a
+              id="calc-bc-limits-key"
               href="https://drive.google.com/file/d/1VcbykiwHt6-4fw1gi4TV_atsV7b3i6H_/view?usp=sharing"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="text-blue-600 hover:underline"
-              onClick={() => ReactGA.event("download", {
-                category: "Resources",
-                label: "AP Calculus BC Limits Review Key"
-              })}
+              data-gtm="download"
+              data-gtm-label="AP Calculus BC Limits Review Key"
+              aria-label="Open AP Calculus BC Limits Review Key"
             >
               View Key
             </a>
-          </div>          
+          </div>
         </div>
       </section>
     </main>
