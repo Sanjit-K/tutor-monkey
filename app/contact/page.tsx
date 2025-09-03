@@ -1,4 +1,3 @@
-// Replaced file with framer-motion-powered version, using isClient guard, and removing Tailwind animation classes.
 "use client";
 
 import Link from "next/link";
@@ -147,24 +146,34 @@ export default function ContactPage() {
               <AnimatePresence>
                 {[
                   {
-                    q: "How much do tutoring sessions cost?",
+                    q: 'Is tutoring free? What about donations?',
                     a:
-                      "All tutoring sessions are $20 per hour, regardless of subject or tutor. We believe in keeping education accessible and affordable.",
+                      'Tutoring is free for all students. We suggest a $20 per hour donation to support our mission and help pay tutors. Donations are optional and tax‑deductible through our fiscal sponsor (Hack Club).',
                   },
                   {
-                    q: "Do you offer online tutoring?",
+                    q: 'Do I have to donate to receive tutoring?',
                     a:
-                      "Yes! We offer both in-person and online tutoring sessions. Online sessions are conducted via Zoom or Google Meet for your convenience.",
+                      'No. We never deny or reduce services based on the ability to donate. Your support helps us reach more students, but it’s not required.',
                   },
                   {
-                    q: "How do I book a session?",
+                    q: 'How do I donate?',
                     a:
-                      "You can book a session by filling out our booking form on the website, calling us, or sending us an email. We'll get back to you within 24 hours to confirm details.",
+                      'Use the Donate button on our site to give through Hack Club. You’ll receive a tax receipt automatically via email.',
                   },
                   {
-                    q: "What subjects do you offer?",
+                    q: 'Do you offer online tutoring?',
                     a:
-                      "We offer tutoring in all major subjects including Mathematics, Science, English, History, Test Preparation, and Computer Science. All tutoring is aligned with Plano ISD curriculum.",
+                      'Yes! We offer both in-person and online tutoring sessions. Online sessions are conducted via Zoom or Google Meet for your convenience.',
+                  },
+                  {
+                    q: 'How do I book a session?',
+                    a:
+                      'You can book a session by filling out our booking form on the website, calling us, or sending us an email. We’ll get back to you within 24 hours to confirm details.',
+                  },
+                  {
+                    q: 'What subjects do you offer?',
+                    a:
+                      'We offer tutoring in all major subjects including Mathematics, Science, English, History, Test Preparation, and Computer Science. All tutoring is aligned with Plano ISD curriculum.',
                   },
                 ].map((item, i) => (
                   <motion.div

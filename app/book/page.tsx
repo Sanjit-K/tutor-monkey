@@ -77,23 +77,31 @@ export default function BookPage() {
             Schedule a personalized tutoring session for your child with one of our expert tutors
           </p>
         </div>
-        {/* Pricing Section migrated from subjects page */}
+        {/* Donation Model Section */}
         <div className="max-w-3xl mx-auto text-center mt-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-display">Simple, Transparent Pricing</h2>
-          <div className="text-4xl font-light text-gray-900 mb-2 font-display">$20</div>
-          <div className="text-lg text-gray-600 mb-6">per hour, any subject, any grade</div>
-          <div className="flex flex-col md:flex-row gap-6 justify-center mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-display">Free Tutoring, Powered by Donations</h2>
+          <p className="text-lg text-gray-700 mb-6">
+            Our tutoring is free for all students. We rely on donations to support our mission and pay our tutors.
+          </p>
+
+          <div className="inline-block bg-gray-900 text-white rounded-full px-5 py-2 text-base font-medium mb-8">
+            Suggested donation: $20 per hour
+          </div>
+
+          <div className="flex flex-col md:flex-row gap-6 justify-center mb-6">
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 flex-1">
               <h3 className="text-lg font-semibold mb-2">1-on-1 Tutoring</h3>
-              <p className="text-gray-600 mb-2">Personalized sessions tailored to your child’s needs with an expert tutor</p>
-              <p className="text-gray-900 font-bold">$20/hr</p>
+              <p className="text-gray-700">Always free. Most families donate about $20 per hour.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 flex-1">
               <h3 className="text-lg font-semibold mb-2">Group Sessions</h3>
-              <p className="text-gray-600 mb-2">Have your child join with friends and save</p>
-              <p className="text-gray-900 font-bold">$15/hr per student</p>
+              <p className="text-gray-700">Always free. Suggested: $15 per student per hour.</p>
             </div>
           </div>
+
+          <p className="text-sm text-gray-600">
+            Donations are optional and tax‑deductible through our fiscal sponsor (Hack Club).
+          </p>
         </div>
       </section>
 
@@ -125,19 +133,21 @@ export default function BookPage() {
               
               <div>
                 <Label htmlFor="school" className="text-gray-900 font-medium">Child&apos;s School</Label>
-                <select id="school" name="school" className="mt-2 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent">
-                  <option value="">Select your school</option>
-                  <option value="plano-west">Plano West Senior High</option>
-                  <option value="plano-senior">Plano Senior High</option>
-                  <option value="plano-east">Plano East Senior High</option>
-                  <option value="other">Other</option>
-                </select>
+                <Input id="school" name="school" type="text" className="mt-2" placeholder="Enter your child's school" />
               </div>
               
               <div>
                 <Label htmlFor="grade" className="text-gray-900 font-medium">Child&apos;s Grade Level</Label>
                 <select id="grade" name="grade" className="mt-2 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent">
                   <option value="">Select your grade</option>
+                  <option value="1">1st Grade</option>
+                  <option value="2">2nd Grade</option>
+                  <option value="3">3rd Grade</option>
+                  <option value="4">4th Grade</option>
+                  <option value="5">5th Grade</option>
+                  <option value="6">6th Grade</option>
+                  <option value="7">7th Grade</option>
+                  <option value="8">8th Grade</option>
                   <option value="9">9th Grade</option>
                   <option value="10">10th Grade</option>
                   <option value="11">11th Grade</option>

@@ -19,7 +19,7 @@ export default function ResourceCard({ title, description, links }: ResourceCard
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
       <p className="text-gray-600 mb-4 text-sm">{description}</p>
 
-      {links.map((link, index) => (
+      {links.map((link) => (
         <a
           key={link.id}
           id={link.id}

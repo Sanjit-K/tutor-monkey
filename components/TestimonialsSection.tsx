@@ -5,25 +5,26 @@ import { motion } from 'framer-motion'
 
 const testimonials = [
   {
-    quote: "My daughter's math grades improved dramatically after just a few sessions.",
-    author: "S.M.",
-    role: "Plano West Parent"
-  },
-  {
-    quote: "The SAT prep sessions were incredibly helpful. I improved my score by 200 points!",
-    author: "A.K.",
-    role: "Plano West Senior"
-  },
-  {
-    quote: "Being a tutor has been amazing. I love helping other students.",
-    author: "J.W.",
-    role: "Plano West Junior"
-  },
-  {
-    quote: "Affordable, flexible, and effective. My daughter can schedule sessions around her busy schedule.",
-    author: "D.P.",
-    role: "Plano West Parent"
-  }
+  quote: "We are so grateful for Matthew's support! His patience, knowledge, and engaging teaching style have greatly impacted my learning. He explains concepts clearly and makes lessons enjoyable, which has boosted my confidence and progress.",
+  author: "J.H.",
+  role: "Sophomore at Greenhill High School",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "The AP Calculus help was exactly what I needed. My tutor walked me through tough problems and made sure I understood each step.",
+  author: "L.C.",
+  role: "Sophomore at Jasper High School",
+  rating: 5,
+  category: "student"
+},
+{
+  quote: "I used to struggle in chemistry, but tutoring sessions made it much clearer. My grades improved and I feel more confident in class.",
+  author: "M.L.",
+  role: "Junior at Plano Senior",
+  rating: 5,
+  category: "student"
+}
 ];
 
 export default function TestimonialsSection() {

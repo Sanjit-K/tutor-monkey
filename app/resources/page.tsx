@@ -3,7 +3,7 @@
 import Navigation from "@/components/Navigation";
 import ResourceCard from "@/components/resources/ResourceCard";
 import ResourceFolder from "@/components/resources/ResourceFolder";
-import { Resource, ResourceFolder as ResourceFolderType } from "@/types/resources";
+import { ResourceFolder as ResourceFolderType } from "@/types/resources";
 
 const resources: ResourceFolderType[] = [
   {
