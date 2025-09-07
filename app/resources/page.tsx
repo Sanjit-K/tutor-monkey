@@ -45,6 +45,18 @@ const resources: ResourceFolderType[] = [
             gtmLabel: "AP Calculus BC Derivatives Review 2.2-2.5"
           }
         ]
+      },
+      {
+        title: "AP Calculus BC Chapter 2 Quiz Review",
+        description: "Quiz review for derivatives",
+        links: [
+          {
+            label: "View PDF",
+            url: "https://drive.google.com/file/d/1H0b9v1Nui-DidBVavfN72U7OhvjZAAkh/view?usp=sharing",
+            id: "calc-bc-deriv-ch2-quiz",
+            gtmLabel: "AP Calculus BC Chapter 2 Quiz Review PDF"
+          }
+        ]
       }
     ]
   }
