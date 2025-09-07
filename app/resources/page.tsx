@@ -55,6 +55,12 @@ const resources: ResourceFolderType[] = [
             url: "https://drive.google.com/file/d/1H0b9v1Nui-DidBVavfN72U7OhvjZAAkh/view?usp=sharing",
             id: "calc-bc-deriv-ch2-quiz",
             gtmLabel: "AP Calculus BC Chapter 2 Quiz Review PDF"
+          },
+          {
+            label: "View Key",
+            url : "https://drive.google.com/file/d/1i9STo-CRN8H2lGnjv6aeHvu1fJkTuYC1/view?usp=sharing",
+            id: "calc-bc-deriv-ch2-quiz-key",
+            gtmLabel: "AP Calculus BC Chapter 2 Quiz Review Key"
           }
         ]
       }
